@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="counter.ico" type="image/x-icon">
+</head>
+<body>
+
+    <div class="grid">
+     
+        <div class="display-wrap">
+            <div>
+                <label for="hour">Horas</label>
+                <span class="linha"></span>
+                <input type="number" class="display" name="hour" id="hour" value="0">
+                <span class="linha"></span>
+                <div class="options">
+                    <button class="add" data-value="hour">
+                        +
+                    </button>
+                    <button class="remove" data-value="hour">
+                        -
+                    </button>
+                </div>
+            </div>
+            <div>
+                <label for="min">Minutos</label>
+                <span class="linha"></span>
+                <input type="number" class="display" name="min" id="min" value="0">
+                <span class="linha"></span>
+                <div class="options">
+                    <button class="add" data-value="min">
+                        +
+                    </button>
+                    <button class="remove" data-value="min">
+                        -
+                    </button>
+                </div>
+            </div>
+            <div>
+                <label for="sec">Segundos</label>
+                <span class="linha"></span>
+                <input type="number" class="display" name="sec" id="sec" value="0">
+                <span class="linha"></span>
+                <div class="options">
+                    <button class="add" data-value="sec">
+                        +
+                    </button>
+                    <button class="remove" data-value="sec">
+                        -
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="btn-grid">
+            <button id="start">
+                Start
+            </button>
+            <button id="pause">
+                pause
+            </button>
+            <button id="reset">
+                reset
+            </button>
+        </div>
+    </div>
+
+    <script src="js/script.js" type="module"></script>
+</body>
+</html>
