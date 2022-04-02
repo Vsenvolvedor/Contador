@@ -27,7 +27,8 @@ body
     display: flex;
     justify-content: center;
     height: 100vh;
-    padding: 18rem 1.5rem;
+    padding: 20rem 1.5rem;
+    position: relative;
 }
 
 .grid
@@ -37,6 +38,13 @@ body
     justify-items: center;
     gap: 3rem;
     height: fit-content;
+}
+
+[data-clock]
+{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 30px;
 }
 
 
