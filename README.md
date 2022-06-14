@@ -7,4 +7,4 @@ Contador simples usando JavaScript
 
 ## Veja aqui
 
-<a href="https://viteydev.github.io/Contador//">Contador</a>
+<a href="https://vsenvolvedor.github.io/Contador/">Contador</a>
